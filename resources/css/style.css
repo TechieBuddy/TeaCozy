@@ -5,3 +5,29 @@ body {
   background-color: black;
   opacity: 0.9;
 }
+
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+#logo {
+  flex-grow: 1;
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  align-content: center;
+  margin: 5px;
+
+}
+
+nav span {
+  padding: 10px;
+}
+
+a {
+  color: seashell;
+}
