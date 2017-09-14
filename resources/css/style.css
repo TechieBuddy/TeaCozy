@@ -31,3 +31,37 @@ nav span {
 a {
   color: seashell;
 }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container.top {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+}
+
+#top-image {
+  display: flex;
+  align-items: center;
+}
+
+#mission-section {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+#mission-section h2 {
+  margin-top: 10px;
+  margin-bottom: 15px
+}
+
+#mission-section h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
