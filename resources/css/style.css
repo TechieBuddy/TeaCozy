@@ -77,6 +77,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 #middle-images {
@@ -91,4 +93,13 @@ a {
 
 #middle-header {
   text-align: center;
+  margin-top: 50px;
+}
+
+#middle-header h2 {
+  margin-bottom: 15px;
+}
+
+#middle-header h4 {
+  margin-top: 10px;
 }
