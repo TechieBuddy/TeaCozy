@@ -65,3 +65,30 @@ a {
   margin-top: 15px;
   margin-bottom: 10px;
 }
+
+.container.middle {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+
+}
+
+.single-mid-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#middle-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-mid-image h4 {
+  margin-top: 10px;
+}
+
+#middle-header {
+  text-align: center;
+}
