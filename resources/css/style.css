@@ -156,3 +156,27 @@ a {
 .locations-box h4 {
   margin: 0px;
 }
+
+/*Footer*/
+/*
+footer {
+  display: flex;
+}
+*/
+
+.footer-content {
+  text-align: center;
+  /*border: 1px solid white;*/
+  height: 200px;
+}
+
+.footer-content h2 {
+  margin-top: 10px;
+}
+
+/*Copyright*/
+.copyright {
+  /*border: 1px solid white;*/
+  padding-left: 20px;
+  margin: 10px 0px;
+}
